@@ -6,6 +6,59 @@
 	box-sizing: border-box;
 }
 
+html {
+	font-size: 10px;
+}
+
+body {
+	padding-top: 56px;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #fafafa;
+	color: #000;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+}
+
+button {
+	background-color: transparent;
+	border: none;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.header {
+	background-color: #fff;
+	width: 100%;
+	position: fixed;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+    top: 0;
+    padding: 15px 30px;
+}
+
+.header .container {
+	display: flex;
+    justify-content: space-between;
+}
+
+.header__img {
+	height: 75px;
+	display: inline-block;
+}
+
+.header__img img {
+	height: 100%
+}
+
+.header__button {
+	font-size: 30px;
+}
 
 
 
