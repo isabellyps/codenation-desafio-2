@@ -134,25 +134,23 @@ button {
 	align-items: center;
     display: flex;
     justify-content: space-between;
-    padding: 8px;
+    padding: 5px;
 }
 
 .post__profile {
 	display: flex;
-    align-items: center;
+	align-items: center;
+	padding: 4px;
 }
 
 .post__header .user__photo {
-	height: 40px;
+	height: 42px;
+	width: 42px;
 	margin-right: 8px;
-	width: 40px;
-	display: flex;
-	border-radius: 130px;
-	overflow: hidden;
 }
 
 .post__header .user__name {
-	font-size: 15px;
+	font-size: 12px;
 }
 
 .post__header__profile__btn{
@@ -179,7 +177,7 @@ button {
 }
 
 .post__header__nav__btn{
-    font-size: 15px;
+    font-size: 24px;
     margin: 0 9px;
 }
 
@@ -191,6 +189,7 @@ button {
 .post__header__like{
 	display: flex;
 	background-color: rgba(0, 0, 0, 0.05);
+	padding: 4px
 }
 
 .post__status .post__profile {
@@ -199,9 +198,10 @@ button {
 	align-items: center;
 }
 
-.post__profile .user__photo {
+.post__header__like .user__photo {
 	height: 30px;
-    width: 30px;
+	width: 30px;
+	margin-right: 8px;
 }
 
 .post__profile span{
@@ -215,5 +215,8 @@ button {
 @media(min-width: 728px) {
 	.container {
 		width: 728px;
+	}
+	.feed {
+		padding: 16px 0;
 	}
 }
