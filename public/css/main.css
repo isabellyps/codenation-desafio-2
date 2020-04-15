@@ -26,6 +26,8 @@ a {
 button {
 	background-color: transparent;
 	border: none;
+	box-shadow: none;
+	outline: none;
 }
 
 .container {
@@ -34,12 +36,14 @@ button {
 }
 
 .header {
+	backface-visibility: hidden;
 	background-color: #fff;
-	width: 100%;
+	padding: 10px 15px;
 	position: fixed;
 	box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
-    top: 0;
-    padding: 15px 30px;
+	top: 0;
+	left: 0;
+	width: 100%;
 }
 
 .header .container {
@@ -48,8 +52,8 @@ button {
 }
 
 .header__img {
-	height: 75px;
 	display: inline-block;
+	height: 40px;
 }
 
 .header__img img {
@@ -57,12 +61,159 @@ button {
 }
 
 .header__button {
-	font-size: 30px;
+	font-size: 15px;
+}
+
+.main__stories {
+	overflow-x: hidden;
+	overflow-y: auto;
+	width: 100%;
+	padding: 19px 0px;
+}
+
+.main__container {
+	align-items: center;
+	display: flex;
+	justify-content: flex-start;
+	width: 100%;
+}
+
+.main__stories .user__photo{
+	width: 75px;
+    height: 75px;
+	margin: 0px 10px;
+	justify-content: center;
+	align-items: center;
+}
+
+.main__stories .user__photo__wrapper {
+	width: 69px;
+    height: 69px;
+}
+
+.user__photo {
+	display: flex;
+	border-radius: 100%;
+	overflow: hidden;
+}
+
+.user__photo__wrapper {
+	border-radius: 100%;
+	border: 2px solid  #fff;
+	display: inline-block;
+	overflow: hidden;
+}
+
+.user__photo img {
+	height: 100%;
+	width: 100%;
+}
+
+.user__photo--modifier {
+	background: linear-gradient(45deg, rgba(245,160,77,1) 0%, rgba(160,15,139,1) 100%);
+}
+
+.feed {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 16px;
+}
+
+.post {
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	border-radius: 8px;
+	border: 1px solid rgba(0, 0, 0, .1);
+	margin-bottom: 30px;
+}
+
+.post__header {
+	align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.post__profile {
+	display: flex;
+    align-items: center;
+}
+
+.post__header .user__photo {
+	height: 40px;
+	margin-right: 8px;
+	width: 40px;
+	display: flex;
+	border-radius: 130px;
+	overflow: hidden;
+}
+
+.post__header .user__name {
+	font-size: 15px;
+}
+
+.post__header__profile__btn{
+	font-size: 15px;
+}
+
+.post__header__img {
+	margin: 0;
+	height: auto;
+	width: 100%;
+	overflow: hidden;
+}
+	
+.post__header__img img {
+	width: 100%;
+}
+
+.post__header__nav {
+	width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 4px 0;
+}
+
+.post__header__nav__btn{
+    font-size: 15px;
+    margin: 0 9px;
+}
+
+.post__header__nav__btn:last-of-type {
+    justify-self: flex-end;
+	margin-left: auto;
+}
+
+.post__header__like{
+	display: flex;
+	background-color: rgba(0, 0, 0, 0.05);
+}
+
+.post__status .post__profile {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.post__profile .user__photo {
+	height: 30px;
+    width: 30px;
+}
+
+.post__profile span{
+	font-size: 12px;
 }
 
 
 
 
 
-
-
+@media(min-width: 728px) {
+	.container {
+		width: 728px;
+	}
+}

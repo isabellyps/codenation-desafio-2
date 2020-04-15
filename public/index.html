@@ -27,167 +27,210 @@
 
 	<main>
 		<div class="container">
-			<a href="#"><img src="img/profiles/yoda/yoda-profile.jpg" alt="Profile Yoda" /></a>
-			<a href="#"><img src="img/profiles/gamora/gamora-profile.jpg" alt="Profile Gamora" /></a>
-			<a href="#"><img src="img/profiles/black-panther/black-panther-profile.jpg" alt="Profile T'Challa" /></a>
+			<section class="main__stories">
+				<div class="main__container">
+					<a class="user__photo" href="#">
+						<span class="user__photo__wrapper">
+							<img src="img/profiles/yoda/yoda-profile.jpg" alt="Profile Yoda" /></a>
+					</span>
+					<a class="user__photo user__photo--modifier" href="#">
+						<span class="user__photo__wrapper">
+							<img src="img/profiles/gamora/gamora-profile.jpg" alt="Profile Gamora" />
+						</span>
+					</a>
+					<a class="user__photo" href="#">
+						<span class="user__photo__wrapper">
+							<img src="img/profiles/black-panther/black-panther-profile.jpg" alt="Profile T'Challa" />
+						</span>
+					</a>
+				</div>
+			</section>
 		</div>
+
 		<div class="container">
-			<article>
-				<div>
-					<a href="#">
-						<img src="img/profiles/yoda/yoda-profile.jpg" alt="Profile Yoda" />
-					</a>
-					<a href="#">Mestre Yoda</a>
-					<button><i class="fas fa-ellipsis-h"></i></button>
-				</div>
-				<div>
-					<img src="img/profiles/yoda/yoda-1.jpg" alt="" />
-				</div>
-				<div>
-					<button><i class="far fa-heart"></i></button>
-					<button><i class="far fa-comment"></i></button>
-					<button><i class="far fa-bookmark"></i></button>
-				</div>
-				<div>
-					<a href="#"><img src="img/profiles/domino/domino-profile.jpg" alt="" /></a>
-					<span>curtido por
-						<a href="#">Domino</a>
-						<span>e outras</span>
-						<a href="#">7 pessoas</a>
-					</span>
-				</div>
-			</article>
+			<section class="feed">
+				<article class="post">
+					<div class="post__header">
+						<div class="post__profile">
+							<a class="user__photo" href="#">
+								<img src="img/profiles/yoda/yoda-profile.jpg" alt="Profile Yoda" />
+							</a>
+							<a class="user__name" href="#">Mestre Yoda</a>
+						</div>
+						<button class="post__header__profile__btn"><i class="fas fa-ellipsis-h"></i></button>
+					</div>
+					<div class="post__header__img">
+						<img src="img/profiles/yoda/yoda-1.jpg" alt="Yoda Post 1" />
+					</div>
+					<nav class="post__header__nav">
+						<button class="post__header__nav__btn"><i class="far fa-heart"></i></button>
+						<button class="post__header__nav__btn"><i class="far fa-comment"></i></button>
+						<button class="post__header__nav__btn"><i class="far fa-bookmark"></i></button>
+					</nav>
+					<div class="post__header__like">
+						<div class="post__profile">
+							<a class="user__photo" href="#"><img src="img/profiles/domino/domino-profile.jpg"
+									alt="" /></a>
+							<span>curtido por
+								<a href="#">Domino</a>
+								<span>e outras</span>
+								<a href="#">7 pessoas</a>
+							</span>
+						</div>
+					</div>
+				</article>
 
-			<article>
-				<div>
-					<a href="#">
-						<img src="img/profiles/gamora/gamora-profile.jpg" alt="Profile Gamora" />
-					</a>
-					<a href="#">Gamora Zen</a>
-					<button><i class="fas fa-ellipsis-h"></i></button>
-				</div>
-				<div>
-					<img src="img/profiles/gamora/gamora-1.jpg" alt="Gamora Post 1" />
-				</div>
-				<div>
-					<button><i class="far fa-heart"></i></button>
-					<button><i class="far fa-comment"></i></button>
-					<button><i class="far fa-bookmark"></i></button>
-				</div>
-				<div>
-					<a href="#"><img src="img/profiles/carol/carol-profile.jpg" alt="Profile Carol" /></a>
-					<span>curtido por
-						<a href="#">Carol Danvers</a>
-						<span>e outras</span>
-						<a href="#">7 pessoas</a>
-					</span>
-				</div>
-			</article>
+				<article class="post">
+					<div class="post__header">
+						<div class="post__profile">
+						<a class="user__photo" href="#">
+							<img src="img/profiles/gamora/gamora-profile.jpg" alt="Profile Gamora" />
+						</a>
+						<a class="user__name" href="#">Gamora Zen</a>
+						</div>
+						<button  class="post__header__profile__btn"><i class="fas fa-ellipsis-h"></i></button>
+					</div>
+					<div class="post__header__img">
+						<img src="img/profiles/gamora/gamora-1.jpg" alt="Gamora Post 1" />
+					</div>
+						<nav class="post__header__nav">
+							<button class="post__header__nav__btn"><i class="far fa-heart"></i></button>
+							<button class="post__header__nav__btn"><i class="far fa-comment"></i></button>
+							<button class="post__header__nav__btn"><i class="far fa-bookmark"></i></button>
+						</nav>
+					<div class="post__header__like">
+						<div class="post__profile">
+						<a class="user__photo" href="#"><img src="img/profiles/carol/carol-profile.jpg" alt="Profile Carol" /></a>
+						<span>curtido por
+							<a href="#">Carol Danvers</a>
+							<span>e outras</span>
+							<a href="#">7 pessoas</a>
+						</span>
+					</div>
+					</div>
+				</article>
 
-			<article>
-				<div>
-					<a href="#">
-						<img src="img/profiles/black-panther/black-panther-profile.jpg" alt="Profile T'Challa" />
-					</a>
-					<a href="#">T'Challa</a>
-					<button><i class="fas fa-ellipsis-h"></i></button>
-				</div>
-				<div>
-					<img src="img/profiles/black-panther/black-panther-1.jpg" alt="T'Challa Post 1" />
-				</div>
-				<div>
-					<button><i class="far fa-heart"></i></button>
-					<button><i class="far fa-comment"></i></button>
-					<button><i class="far fa-bookmark"></i></button>
-				</div>
-				<div>
-					<a href="#"><img src="img/profiles/bruce/bruce-profile.jpg" alt="Profile Bruce" /></a>
-					<span>curtido por
-						<a href="#">Bruce Wayne</a>
-						<span>e outras</span>
-						<a href="#">5 pessoas</a>
-					</span>
-				</div>
-			</article>
+				<article class="post">
+					<div class="post__header">
+						<div class="post__profile">
+						<a class="user__photo" href="#">
+							<img src="img/profiles/black-panther/black-panther-profile.jpg" alt="Profile T'Challa" />
+						</a>
+						<a class="user__name" href="#">T'Challa</a>
+						</div>
+						<button class="post__header__profile__btn"><i class="fas fa-ellipsis-h"></i></button>
+					</div>
+					<div class="post__header__img">
+						<img src="img/profiles/black-panther/black-panther-1.jpg" alt="T'Challa Post 1" />
+					</div>
+						<nav class="post__header__nav">
+							<button class="post__header__nav__btn"><i class="far fa-heart"></i></button>
+							<button class="post__header__nav__btn"><i class="far fa-comment"></i></button>
+							<button class="post__header__nav__btn"><i class="far fa-bookmark"></i></button>
+						</nav>
+					<div class="post__header__like">
+						<div class="post__profile">
+						<a class="user__photo" href="#"><img src="img/profiles/bruce/bruce-profile.jpg" alt="Profile Bruce" /></a>
+						<span>curtido por
+							<a href="#">Bruce Wayne</a>
+							<span>e outras</span>
+							<a href="#">5 pessoas</a>
+						</span>
+					</div>
+					</div>
+				</article>
 
-			<article>
-				<div>
-					<a href="#">
-						<img src="img/profiles/carol/carol-profile.jpg" alt="Profile Carol" />
-					</a>
-					<a href="#">Carol Danvers</a>
-					<button><i class="fas fa-ellipsis-h"></i></button>
-				</div>
-				<div>
-					<img src="img/profiles/carol/carol-1.jpg" alt="Carol Post 1" />
-				</div>
-				<div>
-					<button><i class="far fa-heart"></i></button>
-					<button><i class="far fa-comment"></i></button>
-					<button><i class="far fa-bookmark"></i></button>
-				</div>
-				<div>
-					<a href="#"><img src="img/profiles/yoda/yoda-profile.jpg" alt="Profile Yoda" /></a>
-					<span>curtido por
-						<a href="#">Mestre Yoda</a>
-						<span>e outras</span>
-						<a href="#">7 pessoas</a>
-					</span>
-				</div>
-			</article>
+				<article class="post">
+					<div class="post__header">
+						<div class="post__profile">
+						<a class="user__photo" href="#">
+							<img src="img/profiles/carol/carol-profile.jpg" alt="Profile Carol" />
+						</a>
+						<a class="user__name" href="#">Carol Danvers</a>
+						</div>
+						<button class="post__header__profile__btn"><i class="fas fa-ellipsis-h"></i></button>
+					</div>
+					<div class="post__header__img">
+						<img src="img/profiles/carol/carol-1.jpg" alt="Carol Post 1" />
+					</div>
+						<nav class="post__header__nav">
+							<button class="post__header__nav__btn"><i class="far fa-heart"></i></button>
+							<button class="post__header__nav__btn"><i class="far fa-comment"></i></button>
+							<button class="post__header__nav__btn"><i class="far fa-bookmark"></i></button>
+						</nav>
+					<div class="post__header__like">
+						<div class="post__profile">
+						<a class="user__photo" href="#"><img src="img/profiles/yoda/yoda-profile.jpg" alt="Profile Yoda" /></a>
+						<span>curtido por
+							<a href="#">Mestre Yoda</a>
+							<span>e outras</span>
+							<a href="#">7 pessoas</a>
+						</span>
+					</div>
+					</div>
+				</article>
 
-			<article>
-				<div>
-					<a href="#">
-						<img src="img/profiles/domino/domino-profile.jpg" alt="Profile Domino" />
-					</a>
-					<a href="#">Domino</a>
-					<button><i class="fas fa-ellipsis-h"></i></button>
-				</div>
-				<div>
-					<img src="img/profiles/domino/domino-1.jpg" alt="Domino Post 1" />
-				</div>
-				<div>
-					<button><i class="far fa-heart"></i></button>
-					<button><i class="far fa-comment"></i></button>
-					<button><i class="far fa-bookmark"></i></button>
-				</div>
-				<div>
-					<a href="#"><img src="img/profiles/black-panther/black-panther-profile.jpg"
-							alt="Profile T'Challa" /></a>
-					<span>curtido por
-						<a href="#">T'Challa</a>
-						<span>e outras</span>
-						<a href="#">3 pessoas</a>
-					</span>
-				</div>
-			</article>
+				<article class="post">
+					<div class="post__header">
+						<div class="post__profile">
+						<a class="user__photo" href="#">
+							<img src="img/profiles/domino/domino-profile.jpg" alt="Profile Domino" />
+						</a>
+						<a class="user__name" href="#">Domino</a>
+						</div>
+						<button class="post__header__profile__btn"><i class="fas fa-ellipsis-h"></i></button>
+					</div>
+					<div class="post__header__img">
+						<img src="img/profiles/domino/domino-1.jpg" alt="Domino Post 1" />
+					</div>
+						<nav class="post__header__nav">
+							<button class="post__header__nav__btn"><i class="far fa-heart"></i></button>
+							<button class="post__header__nav__btn"><i class="far fa-comment"></i></button>
+							<button class="post__header__nav__btn"><i class="far fa-bookmark"></i></button>
+						</nav>
+					<div class="post__header__like">
+						<div class="post__profile">
+						<a class="user__photo" href="#"><img src="img/profiles/black-panther/black-panther-profile.jpg"
+								alt="Profile T'Challa" /></a>
+						<span>curtido por
+							<a href="#">T'Challa</a>
+							<span>e outras</span>
+							<a href="#">3 pessoas</a>
+						</span>
+					</div>
+					</div>
+				</article>
 
-			<article>
-				<div>
-					<a href="#">
-						<img src="img/profiles/bruce/bruce-profile.jpg" alt="Profile Bruce" />
-					</a>
-					<a href="#">Bruce Wayne</a>
-					<button><i class="fas fa-ellipsis-h"></i></button>
-				</div>
-				<div>
-					<img src="img/profiles/bruce/bruce-1.jpg" alt="Bruce Post 1" />
-				</div>
-				<div>
-					<button><i class="far fa-heart"></i></button>
-					<button><i class="far fa-comment"></i></button>
-					<button><i class="far fa-bookmark"></i></button>
-				</div>
-				<div>
-					<a href="#"><img src="img/profiles/gamora/gamora-profile.jpg" alt="Profile Gamora" /></a>
-					<span>curtido por
-						<a href="#">Gamora Zen</a>
-						<span>e outras</span>
-						<a href="#">2 pessoas</a>
-					</span>
-				</div>
-			</article>
+				<article class="post">
+					<div class="post__header">
+						<div class="post__profile">
+						<a class="user__photo" href="#">
+							<img src="img/profiles/bruce/bruce-profile.jpg" alt="Profile Bruce" />
+						</a>
+						<a class="user__name" href="#">Bruce Wayne</a>
+						</div>
+						<button class="post__header__profile__btn"><i class="fas fa-ellipsis-h"></i></button>
+					</div>
+					<div class="post__header__img">
+						<img src="img/profiles/bruce/bruce-1.jpg" alt="Bruce Post 1" />
+					</div>
+						<nav class="post__header__nav">
+							<button class="post__header__nav__btn"><i class="far fa-heart"></i></button>
+							<button class="post__header__nav__btn"><i class="far fa-comment"></i></button>
+							<button class="post__header__nav__btn"><i class="far fa-bookmark"></i></button>
+						</nav>
+					<div class="post__header__like">
+						<div class="post__profile">
+						<a class="user__photo" href="#"><img src="img/profiles/gamora/gamora-profile.jpg" alt="Profile Gamora" /></a>
+						<span>curtido por
+							<a href="#">Gamora Zen</a>
+							<span>e outras</span>
+							<a href="#">2 pessoas</a>
+						</span>
+					</div>
+					</div>
+				</article>
+			</section>
 		</div>
 	</main>
 
