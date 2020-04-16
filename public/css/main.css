@@ -208,10 +208,6 @@ button {
 	font-size: 12px;
 }
 
-
-
-
-
 @media(min-width: 728px) {
 	.container {
 		width: 728px;
